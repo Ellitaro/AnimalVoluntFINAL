@@ -94,5 +94,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppData\" />
+    <Folder Include="Model\" />
+    <Folder Include="Resources\Images\" />
+    <Folder Include="Styles\" />
+    <Folder Include="View\Pages\" />
+    <Folder Include="View\Windows\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
